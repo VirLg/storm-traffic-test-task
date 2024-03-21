@@ -8,28 +8,49 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-menu"></div>
-        <div class="flex">
-          <img src="./images/logo.svg" alt="logo img" />
-          <p class="heder-logo">পাজল</p>
-        </div>
+    <header class="container flex header-div">
+      <div class="header-menu">
+        <img src="./images/menu.svg" alt="burger menu" />
       </div>
-      <div class="basket"></div>
+      <div class="flex">
+        <img class="header-logo" src="./images/logo.svg" alt="logo img" />
+
+        <p class="heder-logo">পাজল</p>
+      </div>
+      <div class="basket">
+        <img src="./images/basket.svg" alt="image basket" />
+      </div>
     </header>
     <main>
       <section class="section">
-        <div class="container">
-          <div class="hero" id="redDiv"></div>
-          <button type="submit" class="leftBtn btn" disabled="true">
-            To Left
-          </button>
-          <button type="submit" class="rightBtn btn">To Right</button>
+        <div class="container hero">
+          <div class="content hero-content">
+            <h1 class="hero-title">সেরা অনলাইন বোর্ড গেম দোকান</h1>
+            <h3 class="hero-content">
+              অনলাইনে বোর্ড গেম অর্ডার করুন: বিস্তৃত সিলেকশন এবং দ্রুত ডেলিভারি।
+            </h3>
+          </div>
+          <button class="hero-button">অর্ডার করুন</button>
+          <div class="image image-hero"></div>
         </div>
+      </section>
+      <section class="section gallary">
+        <div class="container">
+          <div class="gallary-content"></div>
+          <div class="gallary-image"></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container"></div>
+      </section>
+      <section class="section">
+        <div class="container"></div>
       </section>
     </main>
     <script src="./js/index.js" type="module"></script>

@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Web Studio */
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 4px;
+}
+
+.link {
+  text-decoration: none;
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.flex {
+  display: flex;
+}
+
+.section {
+  margin: auto;
+}
+
+@media screen and (max-width: 1399px) {
+  .section {
+    background-color: yellow;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section {
+    background-color: yellowgreen;
+  }
+}
+.container {
+  margin: auto;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    background-color: antiquewhite;
+    outline: 1px solid red;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    padding-left: 149px;
+    padding-right: 149px;
+    background-color: aqua;
+    outline: 1px solid red;
+  }
+}
+.header-logo {
+  width: 28.34px;
+  height: 28.34px;
+}
+
+.basket {
+  width: 30px;
+  height: 30px;
+}
+
+.header-menu {
+  width: 24px;
+  height: 32px;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.hero {
+  max-width: 100%;
+}
+
+.hero-title {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+}
+
+.hero-content {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.hero-button {
+  margin-bottom: 70px;
+}
+
+@media screen and (min-width: 375px) {
+  .image-hero {
+    background-image: url(../../images/webp/mobile/bg.webp);
+    width: 375px;
+    height: 375px;
+  }
+  .hero-content {
+    margin-bottom: 81px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .image-hero {
+    background-image: url(../../images/webp/desktop/Hero.webp);
+    width: 1440px;
+    height: 665px;
+  }
+}/*# sourceMappingURL=main.css.map */
