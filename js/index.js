@@ -8,11 +8,14 @@ const ref = {
 const arr = [1, 2, 3];
 const markup = data
   .map(
-    ({ img }) =>
+    ({ img, price, cart, title, star }) =>
       `<div>
-//  console.log('img', ${img})
-// <img src='${img}' alt=""></div>
-`
+            <img src=${img} alt="" />
+            <p class="price">${price}</p>
+            <img src=${cart} alt="burger menu" />
+            <h4 class="shop-item-title">${title}</h4>
+            <img src=${star} alt="burger menu" />
+    </div>`
   )
   .join('');
 
