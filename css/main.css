@@ -179,4 +179,59 @@ img {
     width: 541px;
     height: 393px;
   }
+}
+.shop {
+  margin-left: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 1609px;
+}
+
+.shop-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  margin-left: -30px;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.card {
+  height: 387px;
+  width: 294px;
+  outline: 4px solid teal;
+  margin-bottom: 32px;
+}
+
+.shop-item-thumb {
+  width: 294px;
+  height: 300px;
+}
+
+.price {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.2px;
+  color: #68d585;
+}
+
+.registration__arrow {
+  width: 40px;
+  height: 40px;
+}
+
+.shop-cart {
+  background-image: url("../../images/cart.svg");
+  width: 20px;
+  height: 19px;
+}
+
+.shop-star {
+  background-image: url("../../images/star.svg");
+  width: 111px;
+  height: 17px;
 }/*# sourceMappingURL=main.css.map */

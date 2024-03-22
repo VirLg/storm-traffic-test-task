@@ -1,21 +1,25 @@
 import { data } from './data.js';
-// // import a from '../images/webp/mobile/shop';
+
+// import a from '../images/cart.svg';
 console.log('first', data);
 const ref = {
   shopDiv: document.querySelector('.js-shop-item'),
 };
 // console.log('data', data);
-const arr = [1, 2, 3];
+
 const markup = data
   .map(
-    ({ img, price, cart, title, star }) =>
+    ({ img, price, title }) =>
       `<div>
-            <img src=${img} alt="" />
-            <p class="price">${price}</p>
-            <img src=${cart} alt="burger menu" />
-            <h4 class="shop-item-title">${title}</h4>
-            <img src=${star} alt="burger menu" />
-    </div>`
+     
+      <div class="shop-item-thumb"><img class="shop-item-img" src=${img} alt="shop image" /></div>
+      
+      <div class="flex"><p class="price">${price}</p>
+      <div class="shop-cart"></div></div>
+      <div class="flex"><h4 class="shop-item-title">${title}</h4> 
+      <div class="shop-star"></div></div>
+
+</div>`
   )
   .join('');
 
