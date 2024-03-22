@@ -60,10 +60,13 @@
 }
 @media screen and (min-width: 1440px) {
   .image-hero {
-    background-image: url(../../images/webp/desktop/Hero.webp);
+    background-image: url(../../images/webp/desktop/BG.webp);
 
-    width: 1440px;
-    height: 665px;
+    width: 558px;
+    height: 547px;
+  }
+  .hero {
+    display: flex;
   }
 }
 // @media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
