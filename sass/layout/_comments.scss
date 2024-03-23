@@ -1,0 +1,46 @@
+.comments-item {
+  width: 335px;
+  height: 482px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 7px;
+  outline: 1px solid red;
+}
+.shop-star-comments {
+  background-image: url('../../images/star.svg');
+  width: 111px;
+  height: 17px;
+}
+
+.comments-content {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  color: #2b1e18;
+}
+.comments {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+.js-comments-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+  .js-comments-item {
+    flex-direction: row;
+    column-gap: 54px;
+  }
+
+  .comments-item {
+    width: 564px;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+}
