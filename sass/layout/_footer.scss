@@ -1,0 +1,39 @@
+.footer-list {
+  text-decoration: none;
+  row-gap: 10px;
+}
+.link-ul {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.main-text {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.49px;
+  letter-spacing: -1.2px;
+  color: #778bc6;
+}
+.content-text {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #2b1e18;
+}
+.footer-social {
+  column-gap: 16px;
+}
+@media screen and (max-width: 1439px) {
+  .footer-flex {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer {
+    display: flex;
+  }
+  .footer-flex {
+    display: flex;
+  }
+}

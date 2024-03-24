@@ -97,3 +97,21 @@
   content: 'as';
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 1440px) {
+  .socialDiv {
+    padding-top: 122px;
+    padding-bottom: 92px;
+    padding-left: 183px;
+    padding-right: 166px;
+  }
+  .social-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-link-path {
+    margin-top: 0;
+  }
+  .social-link-mail {
+    margin-top: 0px;
+  }
+}
