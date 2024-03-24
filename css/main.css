@@ -331,13 +331,13 @@ li {
 }
 
 .shop-cart {
-  background-image: url('../../images/cart.svg');
+  background-image: url("../../images/cart.svg");
   width: 20px;
   height: 19px;
 }
 
 .shop-star {
-  background-image: url('../../images/star.svg');
+  background-image: url("../../images/star.svg");
   width: 111px;
   height: 17px;
 }
@@ -357,7 +357,7 @@ li {
 }
 
 @media screen and (max-width: 1439px) {
-  .parent:nth-child(n + 4) {
+  .parent:nth-child(n+4) {
     display: none;
   }
   .shop-btn {
@@ -371,7 +371,7 @@ li {
     justify-content: center;
     flex-wrap: wrap;
     -moz-column-gap: 32px;
-    column-gap: 32px;
+         column-gap: 32px;
     row-gap: 50px;
   }
   .shop-item {
@@ -403,7 +403,7 @@ li {
 }
 
 .shop-star-comments {
-  background-image: url('../../images/star.svg');
+  background-image: url("../../images/star.svg");
   width: 111px;
   height: 17px;
 }
@@ -441,7 +441,7 @@ li {
   .js-comments-item {
     flex-direction: row;
     -moz-column-gap: 54px;
-    column-gap: 54px;
+         column-gap: 54px;
   }
   .comments-item {
     width: 564px;
@@ -513,8 +513,8 @@ li {
   background-position: center;
   border-radius: 50%;
   background-color: #ffffff;
-  background-image: url('../../images/path.svg');
-  content: 'as';
+  background-image: url("../../images/path.svg");
+  content: "as";
   background-repeat: no-repeat;
 }
 
@@ -532,8 +532,8 @@ li {
   background-position: center;
   border-radius: 50%;
   background-color: #ffffff;
-  background-image: url('../../images/mail.svg');
-  content: 'as';
+  background-image: url("../../images/mail.svg");
+  content: "as";
   background-repeat: no-repeat;
 }
 
@@ -551,8 +551,8 @@ li {
   background-position: center;
   border-radius: 50%;
   background-color: #ffffff;
-  background-image: url('../../images/path.svg');
-  content: 'as';
+  background-image: url("../../images/path.svg");
+  content: "as";
   background-repeat: no-repeat;
 }
 
@@ -610,7 +610,7 @@ li {
 
 .footer-social {
   -moz-column-gap: 16px;
-  column-gap: 16px;
+       column-gap: 16px;
 }
 
 @media screen and (max-width: 1439px) {
@@ -630,4 +630,4 @@ li {
   .footer-mail {
     margin-left: 84px;
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
