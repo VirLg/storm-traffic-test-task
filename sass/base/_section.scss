@@ -1,17 +1,18 @@
 .section {
   margin: auto;
 }
+
 @media screen and (max-width: 1399px) {
   .section {
     // padding-top: 60px;
     // padding-bottom: 60px;
-    background-color: yellow;
+    // background-color: yellow;
   }
 }
 @media screen and (min-width: 1440px) {
   .section {
     // padding-top: 94px;
     // padding-bottom: 94px;
-    background-color: yellowgreen;
+    // background-color: yellowgreen;
   }
 }

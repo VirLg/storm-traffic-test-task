@@ -1,6 +1,6 @@
 .header-logo {
-  width: 28.34px;
-  height: 28.34px;
+  width: 34px;
+  height: 34px;
 }
 .basket {
   width: 30px;
@@ -13,7 +13,47 @@
 .header-div {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
+  align-items: start;
+  // justify-content: flex-start;
   height: 100px;
+  padding-top: 34px;
+}
+.heder-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53.64px;
+  letter-spacing: -1.2px;
+  margin-left: 2px;
+  color: #f4c078;
+  padding-top: 0;
+}
+
+.header-link {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -1.2px;
+  color: #2b1e18;
+}
+
+.header-link:not(:first-child) {
+  margin-left: 75px;
+}
+@media screen and (max-width: 1439px) {
+  .header-div {
+    padding-top: 29px;
+    padding-left: 20px;
+    padding-right: 35px;
+  }
+  .header-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header-div {
+    padding-left: 149px;
+    padding-right: 150px;
+  }
 }

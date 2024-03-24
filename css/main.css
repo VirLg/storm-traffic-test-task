@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -12,7 +13,6 @@ html {
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -40,6 +40,7 @@ ul {
 .link {
   text-decoration: none;
   /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  cursor: pointer;
 }
 
 .list {
@@ -57,24 +58,22 @@ ul {
   margin: auto;
 }
 
-@media screen and (max-width: 1399px) {
-  .section {
-    background-color: yellow;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .section {
-    background-color: yellowgreen;
-  }
-}
 .container {
   margin: auto;
+}
+
+.container.odd {
+  background-color: #ffffff; /* Ваш цвет фона для нечетных секций */
+}
+
+/* Стили для четных секций */
+.container.even {
+  background-color: #2b1e18; /* Ваш цвет фона для четных секций */
 }
 
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
-    background-color: antiquewhite;
     outline: 1px solid red;
   }
 }
@@ -84,13 +83,12 @@ ul {
     margin: auto;
     padding-left: 129px;
     padding-right: 129px;
-    background-color: aqua;
     outline: 1px solid red;
   }
 }
 .header-logo {
-  width: 28.34px;
-  height: 28.34px;
+  width: 34px;
+  height: 34px;
 }
 
 .basket {
@@ -106,10 +104,51 @@ ul {
 .header-div {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   height: 100px;
+  padding-top: 34px;
 }
 
+.heder-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53.64px;
+  letter-spacing: -1.2px;
+  margin-left: 2px;
+  color: #f4c078;
+  padding-top: 0;
+}
+
+.header-link {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -1.2px;
+  color: #2b1e18;
+}
+
+.header-link:not(:first-child) {
+  margin-left: 75px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header-div {
+    padding-top: 29px;
+    padding-left: 20px;
+    padding-right: 35px;
+  }
+  .header-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header-div {
+    padding-left: 149px;
+    padding-right: 150px;
+  }
+}
 .hero {
   max-width: 100%;
 }
@@ -289,6 +328,7 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   border-radius: 7px;
+  background-color: #ffffff;
   outline: 1px solid red;
 }
 

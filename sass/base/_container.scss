@@ -3,11 +3,19 @@
   // padding-right: 20px;
   margin: auto;
 }
+.container.odd {
+  background-color: #ffffff; /* Ваш цвет фона для нечетных секций */
+}
+
+/* Стили для четных секций */
+.container.even {
+  background-color: #2b1e18; /* Ваш цвет фона для четных секций */
+}
 
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
     outline: 1px solid red;
   }
 }
@@ -18,7 +26,7 @@
     margin: auto;
     padding-left: 129px;
     padding-right: 129px;
-    background-color: aqua;
+    // background-color: aqua;
     outline: 1px solid red;
   }
 }
