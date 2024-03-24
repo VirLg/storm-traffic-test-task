@@ -280,11 +280,17 @@ ul {
     width: 496px;
   }
 }
+.shop {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .shop-item {
   margin: auto;
   margin-bottom: 32px;
   width: 294px;
-  outline: 4px solid teal;
 }
 
 .shop-title {
@@ -293,10 +299,9 @@ ul {
   font-size: 44px;
   line-height: 48px;
   letter-spacing: -1.2px;
-  margin-left: -30px;
   text-align: center;
   margin-bottom: 38px;
-  color: var(--primary-text-color);
+  color: #2b1e18;
 }
 
 .shop-item-thumb {
@@ -336,18 +341,22 @@ ul {
 }
 
 .shop-btn {
-  width: 200px;
+  width: 122px;
   height: 50px;
+  background-color: #ffffff;
   cursor: pointer;
+  border-radius: 8px;
+  color: #2b1e18;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
 }
 
 @media screen and (max-width: 1439px) {
   .parent:nth-child(n+4) {
     display: none;
-  }
-  .shop {
-    padding-top: 60px;
-    padding-bottom: 60px;
   }
   .shop-btn {
     display: block;
@@ -370,9 +379,12 @@ ul {
   .shop {
     padding-top: 80px;
     padding-bottom: 80px;
+    padding-left: 247px;
+    padding-right: 247px;
   }
   .shop-btn {
     margin-top: 62px;
+    width: 200px;
   }
 }
 .comments-item {
