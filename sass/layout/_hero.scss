@@ -36,9 +36,19 @@
 
   color: #2b1e18;
 }
-@media screen and (min-width: 375px) {
+.hero-mobile {
+  background-image: url(../../images/webp/mobile/bg.jpeg);
+  width: 375px;
+  height: 416px;
+  padding-left: -20px;
+}
+
+@media screen and (max-width: 1439px) {
 }
 @media screen and (min-width: 1440px) {
+  .hero-mobile {
+    display: none;
+  }
   .image-hero {
     width: 558px;
     height: 547px;
