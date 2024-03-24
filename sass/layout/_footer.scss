@@ -1,3 +1,10 @@
+.footer {
+  padding-top: 55px;
+  padding-bottom: 53px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
 .footer-list {
   text-decoration: none;
   row-gap: 10px;
@@ -32,6 +39,8 @@
 @media screen and (min-width: 1440px) {
   .footer {
     display: flex;
+    padding-left: 150px;
+    padding-right: 146px;
   }
   .footer-flex {
     display: flex;
