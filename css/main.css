@@ -43,6 +43,10 @@ ul {
   cursor: pointer;
 }
 
+li {
+  cursor: pointer;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -74,7 +78,6 @@ ul {
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
-    outline: 1px solid red;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -83,7 +86,6 @@ ul {
     margin: auto;
     padding-left: 129px;
     padding-right: 129px;
-    outline: 1px solid red;
   }
 }
 .header-logo {
@@ -396,7 +398,6 @@ ul {
   justify-content: space-around;
   border-radius: 7px;
   background-color: #ffffff;
-  outline: 1px solid red;
   padding-left: 13px;
   padding-right: 13px;
 }
@@ -454,7 +455,6 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #f4c078;
-  outline: 1px solid red;
 }
 
 .social-title {
@@ -626,5 +626,8 @@ ul {
   }
   .footer-flex {
     display: flex;
+  }
+  .footer-mail {
+    margin-left: 84px;
   }
 }/*# sourceMappingURL=main.css.map */
