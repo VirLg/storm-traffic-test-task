@@ -514,7 +514,7 @@ li {
   border-radius: 50%;
   background-color: #ffffff;
   background-image: url("../images/path.svg");
-  content: "as";
+  content: "";
   background-repeat: no-repeat;
 }
 
