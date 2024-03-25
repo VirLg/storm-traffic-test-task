@@ -15,17 +15,17 @@ export const data = [
     price: 'BDT 43467',
   },
   {
-    img: '../images/webp/mobile/shop/bgd.webp',
+    img: './images/webp/mobile/shop/bgd.webp',
     title: 'প্রতখেলা কার্ড',
     price: 'BDT 3516',
   },
   {
-    img: '../images/webp/mobile/shop/bge.webp',
+    img: './images/webp/mobile/shop/bge.webp',
     title: 'রহস্য',
     price: 'BDT 1332',
   },
   {
-    img: '../images/webp/mobile/shop/bgf.webp',
+    img: './images/webp/mobile/shop/bgf.webp',
     title: 'জেঙ্গা খেলা',
     price: 'BDT 2321',
   },

@@ -331,13 +331,13 @@ li {
 }
 
 .shop-cart {
-  background-image: url("../images/cart.svg");
+  background-image: url(../images/cart.svg);
   width: 20px;
   height: 19px;
 }
 
 .shop-star {
-  background-image: url("../images/star.svg");
+  background-image: url(../images/star.svg);
   width: 111px;
   height: 17px;
 }
@@ -513,7 +513,7 @@ li {
   background-position: center;
   border-radius: 50%;
   background-color: #ffffff;
-  background-image: url("../../images/path.svg");
+  background-image: url("../images/path.svg");
   content: "as";
   background-repeat: no-repeat;
 }
@@ -532,7 +532,7 @@ li {
   background-position: center;
   border-radius: 50%;
   background-color: #ffffff;
-  background-image: url("../../images/mail.svg");
+  background-image: url("../images/mail.svg");
   content: "as";
   background-repeat: no-repeat;
 }
@@ -551,7 +551,7 @@ li {
   background-position: center;
   border-radius: 50%;
   background-color: #ffffff;
-  background-image: url("../../images/path.svg");
+  background-image: url("../images/path.svg");
   content: "as";
   background-repeat: no-repeat;
 }
