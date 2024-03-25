@@ -256,7 +256,7 @@ li {
 
 @media screen and (max-width: 1439px) {
   .gallary-image {
-    background-image: url(../../images/webp/mobile/group532.webp);
+    background-image: url(./images/webp/mobile/group532.webp);
     width: 335px;
     height: 398px;
     margin: auto;
