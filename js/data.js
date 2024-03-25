@@ -10,7 +10,7 @@ export const data = [
     price: 'BDT 4020',
   },
   {
-    img: '../images/webp/mobile/shop/bgc.webp',
+    img: './images/webp/mobile/shop/bgc.webp',
     title: 'বাঘ: হারানো সামগ্রীর অনুসন্ধান',
     price: 'BDT 43467',
   },
