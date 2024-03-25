@@ -533,7 +533,7 @@ li {
   border-radius: 50%;
   background-color: #ffffff;
   background-image: url("../images/mail.svg");
-  content: "as";
+  content: "";
   background-repeat: no-repeat;
 }
 
@@ -552,7 +552,7 @@ li {
   border-radius: 50%;
   background-color: #ffffff;
   background-image: url("../images/Shape.svg");
-  content: "as";
+  content: "";
   background-repeat: no-repeat;
 }
 
