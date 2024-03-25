@@ -331,13 +331,13 @@ li {
 }
 
 .shop-cart {
-  background-image: url("../../images/cart.svg");
+  background-image: url("../images/cart.svg");
   width: 20px;
   height: 19px;
 }
 
 .shop-star {
-  background-image: url("../../images/star.svg");
+  background-image: url("../images/star.svg");
   width: 111px;
   height: 17px;
 }
