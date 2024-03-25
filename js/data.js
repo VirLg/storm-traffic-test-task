@@ -1,11 +1,11 @@
 export const data = [
   {
-    img: '../images/webp/mobile/shop/bga.webp',
+    img: './images/webp/mobile/shop/bga',
     price: 'BDT 3439',
     title: 'দিগন্তীয় সামগ্রী',
   },
   {
-    img: '../images/webp/mobile/shop/bgb.webp',
+    img: './images/webp/mobile/shop/bgb.webp',
     title: 'মনোপলি খেলা',
     price: 'BDT 4020',
   },
