@@ -1,6 +1,6 @@
 export const data = [
   {
-    img: './images/webp/mobile/shop/bga',
+    img: './images/webp/mobile/shop/bga.webp',
     price: 'BDT 3439',
     title: 'দিগন্তীয় সামগ্রী',
   },
