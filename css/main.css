@@ -159,22 +159,18 @@ a:active {
   }
 }
 .backdrop {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  visibility: collapse;
+  bottom: 0;
+  right: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: rgba(53, 36, 30, 0.5);
 }
 
 .backdrop.is-hidden {
   pointer-events: none;
-  visibility: visible;
-  width: 100%;
-  height: 100%;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
 }
 
 .backdrop.is-hidden .modal {
@@ -184,7 +180,8 @@ a:active {
 .modal {
   position: absolute;
   top: 50%;
-  left: 46%;
+  left: 50%;
+  min-width: 335px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
@@ -192,14 +189,14 @@ a:active {
 }
 
 .spoylerDiv-one {
-  display: flex;
-  flex-direction: column;
-  max-width: 335px;
-  background-color: #2b1e18;
+  width: 335px;
   padding-top: 62px;
   padding-left: 31px;
   padding-right: 32px;
   padding-bottom: 61px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2b1e18;
 }
 
 .spoyler-one-comments {
@@ -221,8 +218,6 @@ a:active {
   width: 227px;
   height: 56px;
   border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 40px;
   background-color: #f4c078;
   font-family: Montserrat;
@@ -234,11 +229,48 @@ a:active {
   text-align: center;
 }
 
-.spoyler-btn.close {
+.none-btn {
+  width: 227px;
+  height: 56px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
   background-color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
   color: #2b1e18;
+  text-align: center;
 }
 
+.divModalBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .none-btn,
+  .spoyler-btn {
+    width: 245px;
+  }
+  .none-btn {
+    margin-left: 76px;
+  }
+  .spoylerDiv-one {
+    width: 946px;
+    height: auto;
+  }
+  .divModalBtn {
+    flex-direction: row;
+  }
+  .spoyler-btn {
+    margin-left: 160px;
+  }
+}
 .hero {
   max-width: 100%;
 }

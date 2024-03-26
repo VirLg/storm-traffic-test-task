@@ -15,12 +15,8 @@ const toggleModal = () => {
   ref.modal.classList.toggle('is-hidden');
   ref.backdrop.classList.toggle('is-hidden');
 };
-const closeFn = () => {
-  console.log(ref.closeModalBtn);
-  ref.modal.classList.remove('is-hidden');
-  ref.backdrop.classList.remove('is-hidden');
-};
 
+ref.closeModalBtn.addEventListener('click', toggleModal);
 const markup = data
   .map(
     ({ img, price, title }) =>
@@ -52,7 +48,6 @@ const markupComments = comments
   .join('');
 
 ref.openModalBtn.addEventListener('click', toggleModal);
-ref.closeModalBtn.addEventListener('click', closeFn);
 
 ref.shopDiv.insertAdjacentHTML('beforeend', markup);
 

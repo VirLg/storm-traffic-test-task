@@ -1,13 +1,16 @@
 .spoylerDiv-one {
-  display: flex;
-  flex-direction: column;
-  max-width: 335px;
-  // height: 435px;
-  background-color: #2b1e18;
+  // display: flex;
+  // flex-direction: column;
+  width: 335px;
+
   padding-top: 62px;
   padding-left: 31px;
   padding-right: 32px;
   padding-bottom: 61px;
+  margin-left: auto;
+  margin-right: auto;
+  // height: 435px;
+  background-color: #2b1e18;
 }
 
 .spoyler-one-comments {
@@ -27,9 +30,9 @@
   width: 227px;
   height: 56px;
   border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto;
+
   margin-top: 40px;
+
   background-color: #f4c078;
   font-family: Montserrat;
   font-weight: 700;
@@ -39,7 +42,50 @@
   color: #ffffff;
   text-align: center;
 }
-.spoyler-btn.close {
+.none-btn {
+  width: 227px;
+  height: 56px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+
   background-color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
   color: #2b1e18;
+  text-align: center;
+}
+.divModalBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+// @media screen and (max-width: 1439px) {
+//   .spoyler-btn .none-btn {
+//     width: 227px;
+//   }
+// }
+@media screen and (min-width: 1440px) {
+  .none-btn,
+  .spoyler-btn {
+    width: 245px;
+  }
+  .none-btn {
+    margin-left: 76px;
+  }
+
+  .spoylerDiv-one {
+    width: 946px;
+    height: auto;
+  }
+  .divModalBtn {
+    flex-direction: row;
+  }
+  .spoyler-btn {
+    margin-left: 160px;
+  }
 }
