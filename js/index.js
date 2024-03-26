@@ -5,20 +5,22 @@ const ref = {
   shopDiv: document.querySelector('.js-shop-item'),
   commentsDiv: document.querySelector('.js-comments-item'),
   openModalBtn: document.querySelector('.hero-button'),
-  closeModalBtn: document.querySelector('.none'),
+  closeModalBtn: document.querySelector('.none-btn'),
   spoylerOne: document.querySelector('.js-children'),
   modal: document.querySelector('.modal'),
   backdrop: document.querySelector('.backdrop'),
 };
 
 const toggleModal = () => {
-  console.log(ref.openModalBtn);
   ref.modal.classList.toggle('is-hidden');
   ref.backdrop.classList.toggle('is-hidden');
 };
+const closeFn = () => {
+  console.log(ref.closeModalBtn);
+  ref.modal.classList.remove('is-hidden');
+  ref.backdrop.classList.remove('is-hidden');
+};
 
-ref.openModalBtn.addEventListener('click', toggleModal);
-ref.closeModalBtn.addEventListener('click', toggleModal);
 const markup = data
   .map(
     ({ img, price, title }) =>
@@ -48,6 +50,9 @@ const markupComments = comments
     </div>`
   )
   .join('');
+
+ref.openModalBtn.addEventListener('click', toggleModal);
+ref.closeModalBtn.addEventListener('click', closeFn);
 
 ref.shopDiv.insertAdjacentHTML('beforeend', markup);
 
