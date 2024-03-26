@@ -686,4 +686,40 @@ li {
   .footer-mail {
     margin-left: 84px;
   }
+}
+.about-title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.76px;
+  margin-bottom: 9px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-content {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.26px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  opacity: 0.6;
+}
+
+.about-container {
+  padding-top: 61px;
+  padding-left: 19px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  background-color: #2b1e18;
+}
+
+@media screen and (min-width: 1440px) {
+  .about-container {
+    padding-top: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 }/*# sourceMappingURL=main.css.map */
