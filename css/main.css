@@ -47,6 +47,13 @@ li {
   cursor: pointer;
 }
 
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
 .list {
   list-style: none;
   padding: 0;
