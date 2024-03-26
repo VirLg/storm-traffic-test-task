@@ -38,7 +38,7 @@
 }
 .hero-mobile {
   background-image: url(../images/webp/mobile/bg.jpeg);
-  width: 375px;
+  max-width: 375px;
   height: 416px;
   padding-left: -20px;
 }
