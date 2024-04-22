@@ -9,7 +9,13 @@ const ref = {
   spoylerOne: document.querySelector('.js-children'),
   modal: document.querySelector('.modal'),
   backdrop: document.querySelector('.backdrop'),
+  burger:document.querySelector('.burger-menu'),
 };
+const toggleBurger = () => { 
+  ref.burger.classList.toggle('is-burger')
+}
+
+
 
 const toggleModal = () => {
   ref.modal.classList.toggle('is-hidden');
@@ -47,7 +53,11 @@ const markupComments = comments
   )
   .join('');
 
+
+
 ref.openModalBtn.addEventListener('click', toggleModal);
+
+ref.burger.addEventListener('click',toggleBurger)
 
 ref.shopDiv.insertAdjacentHTML('beforeend', markup);
 
