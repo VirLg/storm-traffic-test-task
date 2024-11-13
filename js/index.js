@@ -9,7 +9,7 @@ const ref = {
   spoylerOne: document.querySelector('.js-children'),
   modal: document.querySelector('.modal'),
   backdrop: document.querySelector('.backdrop'),
-  burger: document.querySelector('.burger-menu'),
+  // burger: document.querySelector('.burger-menu'),
 };
 const toggleBurger = () => {
   ref.burger.classList.toggle('is-burger');
