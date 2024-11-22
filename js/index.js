@@ -10,6 +10,7 @@ const ref = {
   modal: document.querySelector('.modal'),
   backdrop: document.querySelector('.backdrop'),
   // burger: document.querySelector('.burger-menu'),
+  searchQuery: document.querySelector('#search-input'),
 };
 const toggleBurger = () => {
   ref.burger.classList.toggle('is-burger');
@@ -60,3 +61,13 @@ ref.shopDiv.insertAdjacentHTML('beforeend', markup);
 ref.commentsDiv.insertAdjacentHTML('beforeend', markupComments);
 
 console.log('5', 5);
+
+const sendSearchQuery = () => {
+  ref.searchQuery.value;
+  dataLayer.push({
+    event: 'search',
+    searchQuery: searchInput,
+  });
+  console.log('Search query sent to dataLayer:', searchInput);
+};
+document.addEventListener.apply(value, sendSearchQuery);
